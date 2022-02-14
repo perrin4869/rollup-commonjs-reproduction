@@ -1,0 +1,17 @@
+{
+    "name": "rollup-commonjs-reproduction",
+    "private": true,
+    "author": "Julian Grinblat",
+    "license": "ISC",
+    "devDependencies": {
+        "typescript": "^4.5.5"
+    },
+    "scripts": {
+      "start": "npm -w service start",
+      "build": "npm -w dynamodb run build"
+    },
+    "workspaces": [
+        "service",
+        "dynamodb"
+    ]
+}

@@ -1,0 +1,21 @@
+# package directories
+**/node_modules
+**/.env
+**/.env.dev
+**/.env.local
+**/.env.*.local
+
+# Serverless directories
+.serverless
+.dynamodb
+
+.eslintcache
+
+# Build packages
+**/dist
+
+# Lerna
+lerna-debug.log
+
+# Typescript
+**/tsconfig.tsbuildinfo
